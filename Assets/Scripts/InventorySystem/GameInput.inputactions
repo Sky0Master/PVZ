@@ -1,0 +1,54 @@
+{
+    "name": "GameInput",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "2ff5b641-c768-4afa-be31-4032806c23e0",
+            "actions": [
+                {
+                    "name": "ThrowItem",
+                    "type": "Button",
+                    "id": "bf5c2c3c-90c7-4279-9e95-768e356c55cf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NextItem",
+                    "type": "Button",
+                    "id": "c3078adf-f26a-41f1-a0cf-3c957aa81e8f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ebb7dce9-fa6f-4f20-83aa-77fd4fd8e54e",
+                    "path": "f",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThrowItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0fe95a7-ab26-449f-8698-3f9dcf36dd0a",
+                    "path": "",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NextItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
